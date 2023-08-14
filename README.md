@@ -1,9 +1,16 @@
 This document outlines the structure, components, and design choices of the application.
 
+
+
 ## Application Structure
 
 This section describes the hierarchical structure of the application, highlighting its organization and key components.
 ### Screens Overview
+
+# screen picture: 
+
+![](https://drive.google.com/file/d/1daG0afmz_v_HPhY9MzXK2qdgquUCIF0l/view?usp=drive_link)
+
 
 The application is structured into various screens, each tailored for specific platforms. Here's an overview of the screens:
 
