@@ -1,6 +1,4 @@
-# Project Documentation
-
-Welcome to the project documentation. This document outlines the structure, components, and design choices of the application.
+This document outlines the structure, components, and design choices of the application.
 
 ## Application Structure
 
