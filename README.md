@@ -7,9 +7,10 @@ This document outlines the structure, components, and design choices of the appl
 This section describes the hierarchical structure of the application, highlighting its organization and key components.
 ### Screens Overview
 
-# screen picture: 
-
-![](https://drive.google.com/file/d/1daG0afmz_v_HPhY9MzXK2qdgquUCIF0l/view?usp=drive_link)
+![android](https://drive.google.com/file/d/1NrM1h5T0v3hysQtku8w_im1N82j4bcqO/view?usp=drive_link)
+![ios](https://drive.google.com/file/d/195fUn0RSMhHrcNwH5MrH_zLnWwfBbaoU/view?usp=drive_link)
+![desktop](https://drive.google.com/file/d/1daG0afmz_v_HPhY9MzXK2qdgquUCIF0l/view?usp=drive_link)
+![macos](https://drive.google.com/file/d/12SfGBEHUVanSkxPPm5-vOi5eOKdCZGMV/view?usp=drive_link)
 
 
 The application is structured into various screens, each tailored for specific platforms. Here's an overview of the screens:
