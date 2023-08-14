@@ -30,20 +30,16 @@ The Home Screen shares certain components across all platforms to ensure consist
 ### Desktop Variants
 - **macOS** (`home_macos.dart`):
     - Code: `HomeMacos();`
-    - Provides a macOS-specific design and user experience.
 
 - **Windows** (`home_window.dart`):
     - Code: `HomeWindows();`
-    - Offers a Windows-specific interface tailored to the platform's conventions.
 
 - **Linux** (`home_linux.dart`):
     - Code: `HomeLinux();`
-    - Presents a design optimized for Linux desktop environments.
 
 ### Mobile Variants
 - **Android** (`home_android.dart`):
     - Code: `HomeAndroid();`
-    - Tailored to Android's design principles and user interaction patterns.
 
 - **iOS** (`home_ios.dart`):
     - Code: `HomeIOS();`
@@ -52,7 +48,6 @@ The Home Screen shares certain components across all platforms to ensure consist
 ### Web Variant
 - **Web** (`home_web.dart`):
     - Code: `HomeWeb();`
-    - Optimized for web browsers, ensuring a seamless experience for online users.
 
 ### Integration: Code Implementation
 The core implementation of the Home Screen is represented by the following code file:
