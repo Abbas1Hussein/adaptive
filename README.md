@@ -1,17 +1,22 @@
+# Application Documentation
 This document outlines the structure, components, and design choices of the application.
 
-
-
 ## Application Structure
-
 This section describes the hierarchical structure of the application, highlighting its organization and key components.
 
 ### Screens Overview
-![android](https://drive.google.com/file/d/1NrM1h5T0v3hysQtku8w_im1N82j4bcqO/view?usp=drive_link)
-![ios](https://drive.google.com/file/d/195fUn0RSMhHrcNwH5MrH_zLnWwfBbaoU/view?usp=drive_link)
-![desktop](https://drive.google.com/file/d/1daG0afmz_v_HPhY9MzXK2qdgquUCIF0l/view?usp=drive_link)
-![macos](https://drive.google.com/file/d/12SfGBEHUVanSkxPPm5-vOi5eOKdCZGMV/view?usp=drive_link)
 
+- **Android:**
+  ![Android](https://drive.google.com/uc?id=1NrM1h5T0v3hysQtku8w_im1N82j4bcqO)
+
+- **iOS:**
+  ![iOS](https://drive.google.com/uc?id=195fUn0RSMhHrcNwH5MrH_zLnWwfBbaoU)
+
+- **Desktop:**
+  ![Desktop](https://drive.google.com/uc?id=1daG0afmz_v_HPhY9MzXK2qdgquUCIF0l)
+
+- **macOS:**
+  ![macOS](https://drive.google.com/uc?id=12SfGBEHUVanSkxPPm5-vOi5eOKdCZGMV)
 
 The application is structured into various screens, each tailored for specific platforms. Here's an overview of the screens:
 
@@ -35,8 +40,8 @@ The application leverages various UI frameworks to ensure platform-specific desi
 
 - **Windows UI:** The `fluent_ui` package is utilized to create a Windows-specific user interface. [Learn more](https://pub.dev/packages/fluent_ui)
 - **macOS UI:** The `macos_ui` package is used to achieve a macOS-specific design. [Learn more](https://pub.dev/packages/macos_ui)
-- **Android, Web, and Linux UI:** The `material` components widgets is incorporated to implement Google's Material Design across multiple platforms. [Learn more](https://docs.flutter.dev/ui/widgets/material)
-- **iOS UI:** The `cupertino` components widgets is integrated to provide an iOS-specific visual experience. [Learn more](https://docs.flutter.dev/ui/widgets/cupertino)
+- **Android, Web, and Linux UI:** The `material` components widgets are incorporated to implement Google's Material Design across multiple platforms. [Learn more](https://docs.flutter.dev/ui/widgets/material)
+- **iOS UI:** The `cupertino` components widgets are integrated to provide an iOS-specific visual experience. [Learn more](https://docs.flutter.dev/ui/widgets/cupertino)
 
 ## Shared Components
 
