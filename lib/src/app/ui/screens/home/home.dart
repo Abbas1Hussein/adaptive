@@ -1,3 +1,4 @@
+import 'package:adaptive/src/app/ui/screens/home/web/web.dart';
 import 'package:flutter/widgets.dart';
 
 import '../../../../core/construct/screen.dart';
@@ -20,4 +21,10 @@ class HomeScreen extends CoreAdaptiveScreen {
 
   @override
   Widget? mac(BuildContext context) => const HomeMacos();
+
+
+  @override
+  Widget? web(BuildContext context) => const HomeWeb();
+
+
 }

@@ -12,6 +12,10 @@ T adaptiveValue<T>({
   T Function()? fuchsia,
   T Function()? linux,
 }) {
+  if (kIsWeb) {
+    if (web != null) return web();
+    throw _mustProvide<T>('web');
+  }
   switch (defaultTargetPlatform) {
     case TargetPlatform.android:
       return android();
@@ -29,9 +33,6 @@ T adaptiveValue<T>({
     case TargetPlatform.fuchsia:
       if (fuchsia != null) return fuchsia();
       throw _mustProvide<T>('fuchsia');
-    default:
-      if (web != null) return web();
-      throw _mustProvide<T>('web');
   }
 }
 
