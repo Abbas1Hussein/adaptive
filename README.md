@@ -74,7 +74,7 @@ Our application's structure offers a range of benefits that significantly enhanc
 
 1. **Platform-Specific Optimization:** By tailoring different screens to specific platforms (e.g., Android, iOS, macOS, Windows), you ensure that each version of your application is optimized for the user experience and design conventions of that platform. This results in a more natural and intuitive interaction for users on each device.
 
-2. **Shared Components for Consistency:** Utilizing shared components across platforms maintains a consistent look, feel, and functionality throughout the application. This consistency helps establish a coherent brand identity and user experience regardless of the device being used.
+2. **Shared Components:** By using shared components, your application maintains a consistent look, feel, and functionality across all systems, which contributes to preventing code duplication.
 
 3. **Efficient Codebase Management:** The organized structure allows you to manage code efficiently. Each platform-specific code file (home_android.dart, home_ios.dart, etc.) contains only the necessary logic for that platform, reducing complexity and making debugging and maintenance easier.
 

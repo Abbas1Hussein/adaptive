@@ -22,9 +22,7 @@ class HomeScreen extends CoreAdaptiveScreen {
   @override
   Widget? mac(BuildContext context) => const HomeMacos();
 
-
   @override
   Widget? web(BuildContext context) => const HomeWeb();
-
 
 }
